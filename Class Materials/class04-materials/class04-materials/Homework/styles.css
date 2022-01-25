@@ -1,0 +1,49 @@
+* {
+    background-color: lightblue;
+    color: white;
+}
+
+
+body {
+    width:450px;
+    height:550px;
+    border: green 3px solid;
+    padding:5px;
+    margin: 0px auto;
+}
+
+h1, nav, footer {
+    text-align: center;
+}
+
+h1 {
+    font-style: italic;
+}
+
+.portfolio {
+    color:green;
+}
+
+p {
+    display:inline-block;
+}
+
+footer {
+    color: green;
+    margin-top: 20px;
+}
+
+.redes {
+    color: green;
+}
+
+article {
+    text-align: left;;
+}
+
+.foto {
+    width:30%;
+    height:30%;
+    display:inline-block;
+    margin-left:70%;
+}
