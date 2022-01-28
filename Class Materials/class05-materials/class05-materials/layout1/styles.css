@@ -1,0 +1,47 @@
+* {
+    background-color: lightgrey;
+}
+
+.bigcontainer {
+    width:1122px;
+    height:688px;
+    border: solid 3px grey;
+    margin: 0px auto;
+    position:relative;
+}
+
+.a1 {
+    position:absolute;
+    width:200px;
+    height:400px;
+    top:150px;
+    left:0px;
+    border:solid 3px grey;
+}
+
+.a2 {
+    position:absolute;
+    width:400px;
+    height:400px;
+    top:150px;
+    left:200px;
+    border: solid 3px grey;
+}
+
+.a3 {
+    position:absolute;
+    width:260px;
+    height:400px;
+    top:150px;
+    left:600px;
+    border:solid 3px grey;
+}
+
+.a4 {
+    position:absolute;
+    width:259px;
+    height:400px;
+    top:150px;
+    left:860px;
+    border:solid 3px grey;
+}
