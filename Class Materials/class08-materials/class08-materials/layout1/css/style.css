@@ -30,7 +30,7 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+background-color: rgb(85, 85, 124);
 }
 
 footer {
@@ -40,3 +40,9 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+header {
+  border:solid red 3px;
+  display:flex;
+  justify-content: space-between;
+}
