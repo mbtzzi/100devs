@@ -1,4 +1,4 @@
-@media all and (min-width: 1000px) {
+@media all and (max-width: 1500px) {
     .section1  {
         height:150x;
         background-color: red;
@@ -15,12 +15,12 @@
 }
 }
 
-@media all and (max-width:500px) {
+@media all and (max-width:1000px) {
     .section1  {
         height:50x;
         background-color: green;
     }
-}
+
 
     .section2 {
         height:10px;
@@ -32,12 +32,13 @@
         background-color: purple;
     }      
 
-    @media all and (min-width: 750px and max-width:999px) {
+}   
+    @media all and (max-width: 500px) {
         .section1  {
             height:170x;
             background-color: brown;
         }
-    
+        
         .section2 {
             height:180px;
             background-color: black;
