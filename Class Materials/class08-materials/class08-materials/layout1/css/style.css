@@ -73,5 +73,110 @@ header p:last-of-type {
 h1 {
   margin-top: 0px;
   text-align: center;
-  border: solid 3px red;
+}
+
+.purplesection p:first-of-type {
+  text-align: center;
+  padding: 0px auto;  
+}
+
+.purplesection p:last-of-type {
+  text-align: center;
+  color:lightgrey;
+  padding-bottom: 50px;
+}
+
+.whytext {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.whytext p {
+  width:30%;
+  margin:0px auto;
+}
+
+.boxesclass {
+  background-color: lightblue;
+  display:flex;
+  width:80%;
+  justify-content: space-around;
+  margin:0px auto;
+}
+
+.indbox {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-bottom: 20px;
+  width:40%  
+}
+
+.indbox div {
+  margin: 0px auto;
+}
+
+.indbox p {
+  margin-bottom: 50px;
+}
+
+.indbox span, .whytext span {
+  border: 2px black solid;
+  padding: 20px 50px;
+}
+
+.whytext p {
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: rgb(1, 1, 27);
+  margin-top: 150px;
+  color:white;
+}
+
+.upperfooter {
+  display:Flex;
+  border: solid red 3px;
+  justify-content: space-between;
+}
+
+.leftfooter {
+  color:white;
+  margin-top: 50px;
+  display:flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.logos {
+  display:flex;
+  justify-content: space-between;
+}
+
+.logos i {
+  margin-right:30px;
+  font-size:30px;
+}
+
+.lflinks {
+  display:flex;
+  flex-direction: column;
+}
+
+h6 {
+  color: grey;
+  font-weight: ;
+}
+
+
+
+.rightfooter {
+}
+
+.endfooter {
+  display:flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 50px;
 }
