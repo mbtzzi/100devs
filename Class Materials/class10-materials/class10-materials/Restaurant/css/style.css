@@ -1,0 +1,263 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.fotoprinc {
+  background-image:url("/img/brooke-lark-08bOYnH_r_E-unsplash.jpg");
+  background-size:cover;
+}
+
+.navheader {
+  display:flex;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-left: 40%;
+  padding-top: 10px;
+  font-weight: bold;
+  color:rgb(2, 2, 46);
+}
+
+.navheader li {
+  margin:0px 20px;
+  color:rgb(2, 2, 46);
+}
+
+h1 {
+  margin-top: 100px;
+  font-size: 60px;
+  display:block;
+  width:45%;
+  color:rgb(2, 2, 46);
+}
+
+.mainpic {
+  margin-left: 70px;
+}
+
+.mainpic input {
+  margin-bottom: 40px;
+  width: 350px;
+  height:30px;
+  padding-left: 30px;
+  background-image: url("/img/magnifying-glass-solid.svg");
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position-x: 8px;
+  background-position-y: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.mainpic select {
+  width:100px;
+  text-align: center;
+  color: white;
+  background-color: orange;
+  height: 30px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: 0px;
+}
+
+.metricsmain {
+  display:flex;
+  justify-content: space-between;
+  width:250px;
+}
+
+.metricsmain i {
+  color:orange;
+  padding-bottom: 70px;
+}
+
+  /*  */
+
+  .secondmain {
+    display:flex;
+    flex-direction: row;
+  }
+
+  .secondmainmiddle {
+    margin-top: 0px;
+  }
+
+  .secondmainright {
+  }
+
+  .secondpic {
+    mask-image: -webkit-linear-gradient(right 0.5);
+  }
+
+  .secondmainmiddle h3, .secondmainmiddle h2, .secondmainmiddle p, .secondmainmiddle button {
+    margin-left: 25%;
+  }
+
+.secondmainmiddle h3, .secondmainmiddle h2 {
+  text-align: left;
+}
+
+  h3 {
+    color: orange;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .secondmainmiddle p {
+    width:500px;
+  }
+
+  .secondmainmiddle button {
+    background-color: orange; 
+    color:white;
+    padding:10px 20px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+  }
+
+  .textlistthird {
+    display:flex;
+    justify-content: center;
+  }
+
+  .textlistthird li {
+    margin: 0px 30px;
+    list-style-type: none;
+  }
+
+.thirdmain {
+  background-color: lightgrey;
+}
+
+.thirdmain img {
+  width:250px;
+  height:350px;
+}
+
+.thirdmainpic {
+  display:flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.thirdmainpic img {
+  margin:0px 20px;
+}
+
+.fourthmain {
+  text-align: center;
+  background-color: whitesmoke;
+  margin-bottom: 50px;
+}
+
+.fourthmain h3 {
+  margin-top: 100px;
+}
+
+.fourthhourcont {
+  display:flex;
+  justify-content: center;
+}
+
+.fourthhourcont div {
+  margin:0px 70px
+}
+
+.fourthhourcont h6 {
+  text-align: left;
+}
+
+.fourthhourcont span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.fourthmain img {
+  margin-top: 30px;
+}
+
+.fifthmain {
+  text-align: center;
+}
+
+.fifthmain img {
+  width: 150px;
+  border-radius: 150px;
+}
+
+.fifthmain div {
+  font-size: 30px ;
+}
+
+.fifthmain span {
+  color: grey;
+}
+
+.fifthmain p {
+  font-size: 20px;
+  font-style: italic;
+  width:50%;
+  margin:0px auto;
+  margin-top: 10px;
+  }
+
+  footer {
+    background-color: lightgray;
+  }
+
+  .bigfootcont {
+    display:flex;
+    justify-content: center;
+    border:solid red 3px;
+  }
+
+  .midfootcont {
+    border: solid blue 3px;
+  }
+
+  .midfootcont img {
+  border: green solid 3px;
+  }
